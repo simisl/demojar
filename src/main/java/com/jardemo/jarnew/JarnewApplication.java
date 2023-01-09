@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JarnewApplication {
 
 
-	@RequestMapping(path = "/hello", method = RequestMethod.GET)
+	@RequestMapping(path = "/hell", method = RequestMethod.GET)
 	public String hello(){
 		return "hello";
 	}
